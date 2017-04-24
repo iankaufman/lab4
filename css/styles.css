@@ -1,8 +1,60 @@
 /* CSS code */
 
-#blackbox{
+#blackbox {
     background-color: black;
-    width: 100%;
+    width: 500px;
     display: block;
+    color: white;
+    float: left;
+    height: 41em;
+}
+
+#caption {
+    background-color: black;
+    color: white;
+    float: left;
+    width: 300px;
+    position: relative;
+    height: 41em;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+    font-family: Adobe Garamond pro, serif;
     
+}
+ 
+#header {
+    color: #ff4500;
+    font-family: Adobe Garamond Pro, serif;
+    font-weight: 300;
+    float: left;
+}
+
+#bodycontent{
+    
+    float: left;
+    
+}
+#bodycontent p {
+    
+    clear: both;
+}
+
+#bodycontent a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    width: 500px;
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+    
+    
+}
+#bodycontent img{
+    float: right;
+    width: 250px;
 }
